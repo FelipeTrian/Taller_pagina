@@ -1,0 +1,31 @@
+@media only escreen and (max-width: 500px){
+.navbar{
+    background-color: #ca4172;
+    height: 80px;
+    box-shadow: 2px, 2px, 15 0% 0% rgb(0,0,0 ,42);
+    align-items: center;
+}
+.navbar .menu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background-color: #ca4172;
+    height: 50hv;
+    left: -1em;
+    transform: translate(0%);
+    transition: all 1,4s;
+}
+.menu .menu-toggle{
+    transform: translate(0%);
+}
+.menu li{
+    max-width: 3ems;
+}
+.navbar.menu-bar{
+    display: block;
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+}
+}
